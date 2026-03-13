@@ -13,9 +13,9 @@
 `define FIFO_DEPTH     16
 `define FIFO_PTR       4
 `define START_ADDR     0
-`define END_ADDR       4095
+`define END_ADDR       4095 //4KB Memory address range which is minimum in computer architecture
 `define LANE_PTR_WIDTH 7	//log2(DATA_WIDTH/8)
-`define MEM_AW		   9
+`define MEM_AW		     9
 `define BUS_WIDTH      128
 `define PROT_WIDTH	   3
 `define MAX_IN_FLIGHT  1    //No. of bits required to represent the total outstanding transactions the slave can handle
